@@ -4,12 +4,14 @@
         response.sendRedirect("/");
     }
 %>
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Remove Session State Lab - Profile Page</title>
 </head>
 <body>
+<%= System.getenv("CF_INSTANCE_INDEX") %>
 
 <h1>Your Profile</h1>
 <div>Username:</div>
